@@ -194,7 +194,7 @@ span {
     width: 100vw;
     height: 105vh;
     margin: -100px 0 0 0;
-    padding: 50px;
+    padding: 70px;
     padding-top: 125px;
     left: -390px; /* Start hidden off-screen */
     right: auto;
@@ -208,7 +208,6 @@ span {
     -webkit-font-smoothing: antialiased;
     font-family: "Bricolage Grotesque", serif;
     /* to stop flickering of text in safari */
-
     transform-origin: left center;
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
   }
@@ -310,7 +309,7 @@ span {
     transform: translateX(-50%);
     display: flex;
     gap: 10px;
-    z-index: 1000000;
+    z-index: 5;
   }
   .buttons label {
     width: 20px;
